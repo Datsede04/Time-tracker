@@ -1,4 +1,4 @@
-.userInfo{
+.profileInfo{
     position: absolute;
     height: 70%;
     width: 100%;
@@ -8,30 +8,30 @@
     color: #fff;
 }
 
-.userInfo img{
+.profileInfo img{
     width: 70px;
     border: 2px solid #fff;
     border-radius: 50%;
 }
-.userInfo h4{
+.profileInfo h4{
     margin-top: 40px;
     font-size: 0.9rem;
     font-weight: normal;
     color: var(--Pale-Blue)
 }
-.userInfo h1{
+.profileInfo h1{
     font-weight: lighter;
 }
 
 @media (max-width: 375px) {
-    .userInfo{
+    .profileInfo{
         display: flex;
         align-items: center;
     }
-    .userInfo h4{
+    .profileInfo h4{
         margin-top: 0;
     }
-    .userInfo h1{
+    .profileInfo h1{
         font-size: 24px;
     }
     .infoContainer{

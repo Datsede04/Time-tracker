@@ -48,3 +48,23 @@ body{
 .tracker{
   width:80%
 }
+
+@media (max-width: 375px) {
+  .App{
+    height: auto;
+  }
+  
+  .timeTracker{
+    flex-direction: column;
+    height: auto;
+    padding: 100px 30px;
+  }
+  
+  .timeList{
+    height: 200px;
+    width : 100%;
+  }
+  .tracker{
+    width:100%
+  }
+}
