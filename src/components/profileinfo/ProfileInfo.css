@@ -1,0 +1,25 @@
+.userInfo{
+    position: absolute;
+    height: 70%;
+    width: 100%;
+    border-radius: 20px;
+    background-color: var(--Blue);
+    padding: 25px;
+    color: #fff;
+}
+
+.userInfo img{
+    width: 70px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+.userInfo h4{
+    margin-top: 40px;
+    font-size: 0.9rem;
+    font-weight: normal;
+    color: var(--Pale-Blue)
+}
+.userInfo h1{
+    font-weight: lighter;
+}
+

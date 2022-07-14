@@ -1,0 +1,20 @@
+.time{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 30%;
+    padding: 25px;
+}
+
+.time li{
+    list-style: none;
+    color: var(--Pale-Blue);
+    padding-bottom: 15px;
+    text-transform: capitalize;
+    font-weight: normal;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+.time li:hover, .time li.active{
+    color: #fff;
+}
